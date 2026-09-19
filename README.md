@@ -36,7 +36,7 @@
 | Full test suite | 1098 collected — **1089 passed / 9 skipped / 0 failed / 0 errors** |
 | Production integration | **NOT YET VERIFIED** — ClickHouse and Airflow runtimes never executed in any certified run |
 | Registered limitations | 16 unique (11 inherited + 5 new hardening), all non-blocking, none hidden |
-| Push status | **Nothing pushed** — local branch `main`, 179 commits ahead of `origin/main` |
+| Push status            | **Pushed to GitHub** — branch `main` tracks `origin/main` |
 
 This is an evidence-driven audit/release README, not marketing
 documentation. The platform validates deterministic synthetic consumer
@@ -481,7 +481,7 @@ collapsible into one value:
 |---|---|---|
 | Execution commit | `fb4df927baf9e43735ac8facde7c5ecbd2a5f187` | HEAD at the fresh 3.2M dual-run regression (2026-09-19T08:37–08:52Z); every stage result and the checker's stale-evidence protection carry this commit. Also the commit of the certified 2026-09-18 clean-room release ZIP (02:43:18Z). The certified evidence itself was produced at `babb4ca` (2026-09-18T22:54Z). |
 | Evidence/build HEAD | `970b57f7894253340e3f7789f886b0402f9f363a` | HEAD when the terminal gate ran PASS 22/22 (13:21:41Z) and when the release evidence namespace, claim models, and root documents were built (13:24–13:28Z). Recorded as `git_commit_at_build` in `RELEASE_IDENTITY.json`, `FINAL_RESULTS.json`, `release_manifest.json`. |
-| Final release commit | `f99b7b5940b40e31a0558129c579c6745c383f41` | Current HEAD. The single release commit that absorbed the terminal gate, both fixed-point runs, the 21/21 read-only final verification, the repro gate round, and the ZIP record (authored 13:29:31Z, finalized 13:46:38Z via a documented amend chain). |
+| Final release commit | `f99b7b5940b40e31a0558129c579c6745c383f41` | The single release commit that absorbed the terminal gate, both fixed-point runs, the 21/21 read-only final verification, the repro gate round, and the ZIP record (authored 13:29:31Z, finalized 13:46:38Z via a documented amend chain). |
 
 **Choreography detail (honest record):** the final release commit was
 assembled through a sequence of amends (visible in `git reflog`; the
@@ -499,7 +499,7 @@ VERIFIED/INTENTIONAL — zero stale, inconsistent, or unresolved.
 | ZIP record | built 2026-09-19T13:46:25Z at git `5a34b39` from the committed tree; verdict VERIFIED (527/527 member SHA-256, CRC, path safety, credential scan PASS with 2 documented positive-control fixtures, portable machine-path gate PASS) |
 | Clean-room ZIP verification | PASS (11 steps, 2026-09-19T13:46:48Z) |
 | Certified baseline ZIP | `DQAEIP-FINAL-CLEAN-REBUILD-RELEASE-2026-09-18.zip` — SHA-256 `4ecbfc16da7ddaa1c830d5963f2eefba3236e3ce07fb1b1857bd07d63020cea5`, 460 members, 2,001,588 bytes (re-hash-verified at this release's build and in this audit) |
-| Branch / push status | branch `main`, local only, **nothing pushed** — 179 commits ahead of `origin/main` (`8f60aa6…`) |
+| Branch / push status | branch `main`, **pushed to `origin/main`** — repository synchronized with GitHub |
 
 ## Reproducibility
 
