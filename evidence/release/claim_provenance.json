@@ -1,0 +1,399 @@
+{
+  "claims": [
+    {
+      "claim": "3.2M validation rows",
+      "claim_id": "CLAIM-hardened-rows",
+      "derivation": "final_3m_rows",
+      "source_artifact": "evidence/validation/2026-09-19/fresh_3m2/FINAL_RESULTS.json",
+      "source_sha256": "034a7d478eeefa9e4d3e8783b2499ae73a040ff544320f2eb7584fb920c9250b",
+      "status": "VERIFIED_LOCALLY",
+      "value": 3200000,
+      "verified": true
+    },
+    {
+      "claim": "checker verdict",
+      "claim_id": "CLAIM-hardened-status",
+      "derivation": "final_3m_status",
+      "source_artifact": "evidence/validation/2026-09-19/fresh_3m2/FINAL_RESULTS.json",
+      "source_sha256": "034a7d478eeefa9e4d3e8783b2499ae73a040ff544320f2eb7584fb920c9250b",
+      "status": "VERIFIED_LOCALLY",
+      "value": "PASS",
+      "verified": true
+    },
+    {
+      "claim": "input SHA-256",
+      "claim_id": "CLAIM-hardened-input-sha",
+      "derivation": "final_3m_input_sha256",
+      "source_artifact": "evidence/validation/2026-09-19/fresh_3m2/FINAL_RESULTS.json",
+      "source_sha256": "034a7d478eeefa9e4d3e8783b2499ae73a040ff544320f2eb7584fb920c9250b",
+      "status": "VERIFIED_LOCALLY",
+      "value": "59624a53c72f908f1dde673ceecf59e0662ae721bb8f9af7e165acba5318d153",
+      "verified": true
+    },
+    {
+      "claim": "output SHA-256",
+      "claim_id": "CLAIM-hardened-output-sha",
+      "derivation": "final_3m_output_sha256",
+      "source_artifact": "evidence/validation/2026-09-19/fresh_3m2/FINAL_RESULTS.json",
+      "source_sha256": "034a7d478eeefa9e4d3e8783b2499ae73a040ff544320f2eb7584fb920c9250b",
+      "status": "VERIFIED_LOCALLY",
+      "value": "b72adc235160a86e0b99a08f988dd0bb5f2cff82bbe5b5d28ea07c5a5719329a",
+      "verified": true
+    },
+    {
+      "claim": "generation seed",
+      "claim_id": "CLAIM-hardened-seed",
+      "derivation": "final_3m_seed",
+      "source_artifact": "evidence/validation/2026-09-19/fresh_3m2/FINAL_RESULTS.json",
+      "source_sha256": "034a7d478eeefa9e4d3e8783b2499ae73a040ff544320f2eb7584fb920c9250b",
+      "status": "VERIFIED_LOCALLY",
+      "value": 20260918,
+      "verified": true
+    },
+    {
+      "claim": "complete runs",
+      "claim_id": "CLAIM-hardened-run-count",
+      "derivation": "final_3m_run_count",
+      "source_artifact": "evidence/validation/2026-09-19/fresh_3m2/FINAL_RESULTS.json",
+      "source_sha256": "034a7d478eeefa9e4d3e8783b2499ae73a040ff544320f2eb7584fb920c9250b",
+      "status": "VERIFIED_LOCALLY",
+      "value": 2,
+      "verified": true
+    },
+    {
+      "claim": "byte-identical outputs",
+      "claim_id": "CLAIM-hardened-determinism",
+      "derivation": "final_3m_determinism_gate",
+      "source_artifact": "evidence/validation/2026-09-19/fresh_3m2/FINAL_RESULTS.json",
+      "source_sha256": "034a7d478eeefa9e4d3e8783b2499ae73a040ff544320f2eb7584fb920c9250b",
+      "status": "VERIFIED_LOCALLY",
+      "value": true,
+      "verified": true
+    },
+    {
+      "claim": "combined oracle comparisons",
+      "claim_id": "CLAIM-hardened-oracle-comparisons",
+      "derivation": "oracle_comparisons_combined",
+      "source_artifact": "evidence/validation/2026-09-19/fresh_3m2/FINAL_RESULTS.json",
+      "source_sha256": "034a7d478eeefa9e4d3e8783b2499ae73a040ff544320f2eb7584fb920c9250b",
+      "status": "VERIFIED_LOCALLY",
+      "value": 51200000,
+      "verified": true
+    },
+    {
+      "claim": "combined oracle mismatches",
+      "claim_id": "CLAIM-hardened-oracle-mismatches",
+      "derivation": "oracle_mismatches_combined",
+      "source_artifact": "evidence/validation/2026-09-19/fresh_3m2/FINAL_RESULTS.json",
+      "source_sha256": "034a7d478eeefa9e4d3e8783b2499ae73a040ff544320f2eb7584fb920c9250b",
+      "status": "VERIFIED_LOCALLY",
+      "value": 0,
+      "verified": true
+    },
+    {
+      "claim": "checker script SHA-256",
+      "claim_id": "CLAIM-hardened-checker-sha",
+      "derivation": "checker_script_sha256",
+      "source_artifact": "scripts/final_3m_validation.py",
+      "source_sha256": "0ef7c10c14a1df317c23cb0dfc73b3a60c2257c064b35080d694e5fe8bc50d84",
+      "status": "VERIFIED_LOCALLY",
+      "value": "0ef7c10c14a1df317c23cb0dfc73b3a60c2257c064b35080d694e5fe8bc50d84",
+      "verified": true
+    },
+    {
+      "claim": "Frozen V1 source SHA-256",
+      "claim_id": "CLAIM-hardened-v1-sha",
+      "derivation": "v1_rule_source_sha256",
+      "source_artifact": "data_quality_platform/rules/v1_rules.py",
+      "source_sha256": "daef1ded54c7d3c79898a1ba253be2acd5b6120e18b16b09009fdd7be9fc2276",
+      "status": "VERIFIED_LOCALLY",
+      "value": "daef1ded54c7d3c79898a1ba253be2acd5b6120e18b16b09009fdd7be9fc2276",
+      "verified": true
+    },
+    {
+      "claim": "frozen V1 rule count",
+      "claim_id": "CLAIM-hardened-v1-count",
+      "derivation": "v1_rule_count",
+      "source_artifact": "evidence/rebuild_baseline/v1_rule_inventory.json",
+      "source_sha256": "4b5ec120e00f894bd8656ea929961b3bf7af6ebc940e21f86c3f1d779e813e47",
+      "status": "VERIFIED_LOCALLY",
+      "value": 8,
+      "verified": true
+    },
+    {
+      "claim": "engine memory profile",
+      "claim_id": "CLAIM-hardened-memory",
+      "derivation": "memory_characteristic",
+      "source_artifact": "evidence/release/limitation_registry.json",
+      "source_sha256": "ad6130b2e72168922c88270ba732ba1043df613005dc66eedd92aaaf427c3d33",
+      "status": "VERIFIED_LOCALLY",
+      "value": "O(N)",
+      "verified": true
+    },
+    {
+      "claim": "registered limitations",
+      "claim_id": "CLAIM-hardened-limitations",
+      "derivation": "limitation_count",
+      "source_artifact": "evidence/release/limitation_registry.json",
+      "source_sha256": "ad6130b2e72168922c88270ba732ba1043df613005dc66eedd92aaaf427c3d33",
+      "status": "VERIFIED_LOCALLY",
+      "value": 16,
+      "verified": true
+    },
+    {
+      "claim": "full suite passed",
+      "claim_id": "CLAIM-hardened-tests-passed",
+      "derivation": "tests_passed",
+      "source_artifact": "evidence/rebuild_verification/test_summary.json",
+      "source_sha256": "8971adc4916ba210f8f1b49358846b6308bda5e35033422574037c42e7808ee9",
+      "status": "VERIFIED_LOCALLY",
+      "value": 1089,
+      "verified": true
+    },
+    {
+      "claim": "full suite skipped",
+      "claim_id": "CLAIM-hardened-tests-skipped",
+      "derivation": "tests_skipped",
+      "source_artifact": "evidence/rebuild_verification/test_summary.json",
+      "source_sha256": "8971adc4916ba210f8f1b49358846b6308bda5e35033422574037c42e7808ee9",
+      "status": "VERIFIED_LOCALLY",
+      "value": 9,
+      "verified": true
+    },
+    {
+      "claim": "full suite collected",
+      "claim_id": "CLAIM-hardened-tests-collected",
+      "derivation": "tests_collected",
+      "source_artifact": "evidence/rebuild_verification/test_summary.json",
+      "source_sha256": "8971adc4916ba210f8f1b49358846b6308bda5e35033422574037c42e7808ee9",
+      "status": "VERIFIED_LOCALLY",
+      "value": 1098,
+      "verified": true
+    },
+    {
+      "claim": "business mutation score",
+      "claim_id": "CLAIM-hardened-mutation-score",
+      "derivation": "mutation_score",
+      "source_artifact": "evidence/mutation_testing/mutation_results.json",
+      "source_sha256": "3c324830bcc0406614d577e207b8d6ef8c424ed9139c962347370b40f4926a15",
+      "status": "VERIFIED_LOCALLY",
+      "value": 1.0,
+      "verified": true
+    },
+    {
+      "claim": "release gate verdict",
+      "claim_id": "CLAIM-hardened-release-gate",
+      "derivation": "release_gate_verdict",
+      "reason": null,
+      "source_artifact": "evidence/release_gate/final_release_gate.json",
+      "source_sha256": "6be0031fdf94d27177e534bd655c20d277ae70ccd4442aedfd51b75e35c7ce12",
+      "status": "VERIFIED_LOCALLY",
+      "value": "PASS",
+      "verified": true
+    },
+    {
+      "claim": "ClickHouse runtime execution",
+      "claim_id": "CLAIM-hardened-clickhouse",
+      "derivation": "clickhouse_runtime_status",
+      "reason": "no claim is made that ClickHouse executed in any certified run (inherited limitation LIM-002)",
+      "source_artifact": null,
+      "source_sha256": null,
+      "status": "NOT_VERIFIED",
+      "value": null,
+      "verified": false
+    },
+    {
+      "claim": "Airflow runtime execution",
+      "claim_id": "CLAIM-hardened-airflow",
+      "derivation": "airflow_runtime_status",
+      "reason": "no claim is made that Airflow executed in any certified run (inherited limitation LIM-003)",
+      "source_artifact": null,
+      "source_sha256": null,
+      "status": "NOT_VERIFIED",
+      "value": null,
+      "verified": false
+    }
+  ],
+  "generated_utc": "2026-09-19T13:24:34Z",
+  "policy": "values are machine-derived from source artifacts; claims that cannot be derived are NOT_VERIFIED and never become PASS; this record is regenerated by scripts/hardening_release_model_builder.py from the CURRENT FINAL_RESULTS claim set (live re-verification, fail-closed)",
+  "release_identity": {
+    "release_name": "DQAEIP-FINAL-HARDENED-RELEASE-2026-09-19"
+  },
+  "report": "DQAEIP claim-to-evidence provenance",
+  "verification": {
+    "claims_not_verified": 2,
+    "claims_total": 21,
+    "claims_verified": 19,
+    "recheck_passed": true,
+    "results": [
+      {
+        "claim": "3.2M validation rows",
+        "detail": {
+          "derived": 3200000
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "checker verdict",
+        "detail": {
+          "derived": "PASS"
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "input SHA-256",
+        "detail": {
+          "derived": "59624a53c72f908f1dde673ceecf59e0662ae721bb8f9af7e165acba5318d153"
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "output SHA-256",
+        "detail": {
+          "derived": "b72adc235160a86e0b99a08f988dd0bb5f2cff82bbe5b5d28ea07c5a5719329a"
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "generation seed",
+        "detail": {
+          "derived": 20260918
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "complete runs",
+        "detail": {
+          "derived": 2
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "byte-identical outputs",
+        "detail": {
+          "derived": true
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "combined oracle comparisons",
+        "detail": {
+          "derived": 51200000
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "combined oracle mismatches",
+        "detail": {
+          "derived": 0
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "checker script SHA-256",
+        "detail": {
+          "derived": "0ef7c10c14a1df317c23cb0dfc73b3a60c2257c064b35080d694e5fe8bc50d84"
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "Frozen V1 source SHA-256",
+        "detail": {
+          "derived": "daef1ded54c7d3c79898a1ba253be2acd5b6120e18b16b09009fdd7be9fc2276"
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "frozen V1 rule count",
+        "detail": {
+          "derived": 8
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "engine memory profile",
+        "detail": {
+          "derived": "O(N)"
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "registered limitations",
+        "detail": {
+          "derived": 16
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "full suite passed",
+        "detail": {
+          "derived": 1089
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "full suite skipped",
+        "detail": {
+          "derived": 9
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "full suite collected",
+        "detail": {
+          "derived": 1098
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "business mutation score",
+        "detail": {
+          "derived": 1.0
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "release gate verdict",
+        "detail": {
+          "derived": "PASS"
+        },
+        "ok": true,
+        "verified": true
+      },
+      {
+        "claim": "ClickHouse runtime execution",
+        "detail": {
+          "reason": "recorded as NOT_VERIFIED \u2014 never reported as PASS"
+        },
+        "ok": true,
+        "verified": false
+      },
+      {
+        "claim": "Airflow runtime execution",
+        "detail": {
+          "reason": "recorded as NOT_VERIFIED \u2014 never reported as PASS"
+        },
+        "ok": true,
+        "verified": false
+      }
+    ]
+  }
+}

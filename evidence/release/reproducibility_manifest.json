@@ -1,0 +1,62 @@
+{
+  "artifact_type": "reproducibility capsule (metadata only)",
+  "checker_identity": {
+    "path": "scripts/final_3m_validation.py",
+    "sha256": "0ef7c10c14a1df317c23cb0dfc73b3a60c2257c064b35080d694e5fe8bc50d84",
+    "version": "frozen (byte-identical to the certified harness)"
+  },
+  "dependency_fingerprints": {
+    "frozen_checker": "0ef7c10c14a1df317c23cb0dfc73b3a60c2257c064b35080d694e5fe8bc50d84",
+    "frozen_v1_rules": "daef1ded54c7d3c79898a1ba253be2acd5b6120e18b16b09009fdd7be9fc2276"
+  },
+  "evidence_root": "65c48452a3ee89ee944c28a9ef919a64d1815d0037510f6179c6f7f203faeb19",
+  "generated_utc": "2026-09-19T13:24:34Z",
+  "git_identity": {
+    "branch": "main",
+    "head": "970b57f7894253340e3f7789f886b0402f9f363a",
+    "note": "local release branch; nothing pushed",
+    "pushed": false
+  },
+  "input_identity": {
+    "columns": 33,
+    "generator": "deterministic synthetic (seed 20260918)",
+    "rows": 3200000,
+    "seed": 20260918,
+    "sha256": "59624a53c72f908f1dde673ceecf59e0662ae721bb8f9af7e165acba5318d153"
+  },
+  "no_credentials": true,
+  "no_machine_local_paths": true,
+  "no_pii": true,
+  "output_identity": {
+    "columns": 41,
+    "rows": 3200000,
+    "sha256": "b72adc235160a86e0b99a08f988dd0bb5f2cff82bbe5b5d28ea07c5a5719329a"
+  },
+  "python": "3.12.14",
+  "release_gate_result": "PASS",
+  "release_identity": {
+    "product_name": "Data Quality Assurance & Evidence Integrity Platform",
+    "release_date": "2026-09-19",
+    "release_name": "DQAEIP-FINAL-HARDENED-RELEASE-2026-09-19",
+    "short_name": "DQAEIP",
+    "supersedes": "DQAEIP-FINAL-CLEAN-REBUILD-RELEASE-2026-09-18",
+    "supersedes_note": "certified baseline preserved byte-for-byte; referenced as BASELINE_CERTIFIED_HISTORICAL",
+    "technical_package": "data_quality_platform (retained unchanged for compatibility)"
+  },
+  "reproduction_command": ".venv/bin/python scripts/final_3m_validation.py --phase generate/validate/verify/finalize --rows 3200000 --seed 20260918 --data-dir data/generated/fresh_3m2_regression --evidence-dir evidence/validation/2026-09-19/fresh_3m2",
+  "rule_identity": {
+    "rule_count": 8,
+    "sha256": "daef1ded54c7d3c79898a1ba253be2acd5b6120e18b16b09009fdd7be9fc2276",
+    "source": "data_quality_platform/rules/v1_rules.py"
+  },
+  "run_identities": {
+    "run_1": "final_3m_pass1",
+    "run_2": "final_3m_pass2"
+  },
+  "schema_identity": {
+    "input_columns": 33,
+    "input_schema_hash_33": "47813dbee947c871971a4841bd4aef325530a6886b96a6f77bba6af86c5031fa",
+    "output_columns": 41,
+    "schema_hash": "47813dbee947c871971a4841bd4aef325530a6886b96a6f77bba6af86c5031fa"
+  }
+}

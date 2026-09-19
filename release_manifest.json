@@ -1,0 +1,81 @@
+{
+  "artifacts": {
+    "FINAL_RESULTS.json": {
+      "sha256": "98de015ff2f963a188bad6dcf57f1c9061aa8dc21391302639b13019edd449c4",
+      "size_bytes": 30760
+    },
+    "README.md": {
+      "sha256": "74d26192f0920ff5ed7269d795e69768ba716644ebda34fa5196bf4bebfdf6a3",
+      "size_bytes": 24357
+    },
+    "RELEASE_NOTES.md": {
+      "sha256": "dc7bbef115b8262ba3cf46a6598733c897e60f145da0e2a4acfb153b0c93537f",
+      "size_bytes": 8757
+    },
+    "final_result.json": {
+      "sha256": "98de015ff2f963a188bad6dcf57f1c9061aa8dc21391302639b13019edd449c4",
+      "size_bytes": 30760
+    }
+  },
+  "environment": {
+    "execution_mode": "local staged validation; no network, no ClickHouse or Airflow runtime, SP1/E1 inactive",
+    "frozen_checker": "scripts/final_3m_validation.py \u2014 byte-identical to the certified harness",
+    "os": "Linux 5.10.134-013.15.kangaroo.al8.x86_64 (x86_64)",
+    "python": "3.12.14"
+  },
+  "evidence_namespaces": {
+    "baseline_certified_historical": "evidence/FINAL_CLEAN_REBUILD_RELEASE_2026-09-18/ (untouched)",
+    "regression": "evidence/validation/2026-09-19/fresh_3m2/",
+    "release": "evidence/FINAL_HARDENED_RELEASE_2026-09-19/"
+  },
+  "frozen_core": {
+    "checker_sha256": "0ef7c10c14a1df317c23cb0dfc73b3a60c2257c064b35080d694e5fe8bc50d84",
+    "note": "frozen V1 and the certified checker are byte-identical to the certified baseline",
+    "v1_rules_sha256": "daef1ded54c7d3c79898a1ba253be2acd5b6120e18b16b09009fdd7be9fc2276"
+  },
+  "generated_utc": "2026-09-19T13:24:34Z",
+  "git": {
+    "ahead": 178,
+    "behind": 0,
+    "head": "970b57f7894253340e3f7789f886b0402f9f363a",
+    "head_note": "head the release evidence namespace was built on (single shared source with FINAL_RESULTS.git_identity.head); an ancestor of the final release commit",
+    "note": "local release branch; nothing pushed",
+    "origin_main": "8f60aa68f0009cdc81c332815f9fcd5ae194581f",
+    "pushed": false,
+    "tree_hash": "93d01f3dcfc3cc1fba53bb9243164aff4c16b984"
+  },
+  "project": {
+    "name": "Data Quality Assurance & Evidence Integrity Platform",
+    "short_name": "DQAEIP",
+    "technical_package": "data_quality_platform (compatibility, unchanged)",
+    "version": "2.1.0"
+  },
+  "release_date": "2026-09-19",
+  "release_identity_base": "DQAEIP-Enterprise-Assurance-Validation-Release",
+  "release_kind": "OPERATIONAL_HARDENING_ADDITIVE",
+  "release_name": "DQAEIP-FINAL-HARDENED-RELEASE-2026-09-19",
+  "report": "DQAEIP release manifest (2026-09-19 hardened release; regenerated from current state)",
+  "schema": {
+    "name": "dqaeip.release_manifest",
+    "version": "1.1"
+  },
+  "supersedes": "DQAEIP-FINAL-CLEAN-REBUILD-RELEASE-2026-09-18",
+  "supersedes_note": "certified baseline preserved byte-for-byte (ZIP + git HEAD fb4df92); referenced as BASELINE_CERTIFIED_HISTORICAL",
+  "validation": {
+    "final_verdict": "PASS_WITH_DOCUMENTED_LIMITATIONS",
+    "input_sha256": "59624a53c72f908f1dde673ceecf59e0662ae721bb8f9af7e165acba5318d153",
+    "output_sha256": "b72adc235160a86e0b99a08f988dd0bb5f2cff82bbe5b5d28ea07c5a5719329a",
+    "release_gate_verdict": "PASS",
+    "rows": 3200000,
+    "runs": 2,
+    "seed": 20260918,
+    "tests": {
+      "collected": 1098,
+      "errors": 0,
+      "failed": 0,
+      "passed": 1089,
+      "skipped": 9,
+      "source": "evidence/rebuild_verification/test_summary.json"
+    }
+  }
+}

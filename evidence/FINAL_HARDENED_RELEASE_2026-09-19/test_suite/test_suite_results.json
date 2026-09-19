@@ -1,0 +1,16 @@
+{
+  "capture_command": "python -m pytest -q -p no:cacheprovider",
+  "captured_utc": "2026-09-19T13:23:06Z",
+  "generated_utc": "2026-09-19T13:28:40Z",
+  "schema": "dqaeip.hardening.test.suite/1.0",
+  "scope": "entire tests/ tree; CONSUMED from the canonical test summary (fresh execution by scripts/capture_test_summary.py, run BEFORE this namespace build \u2014 dependency direction: fresh test execution -> canonical test_summary -> evidence namespace -> release documents)",
+  "source": "evidence/rebuild_verification/test_summary.json",
+  "source_sha256": "8971adc4916ba210f8f1b49358846b6308bda5e35033422574037c42e7808ee9",
+  "stats": {
+    "collected": 1098,
+    "errors": 0,
+    "failed": 0,
+    "passed": 1089,
+    "skipped": 9
+  }
+}
